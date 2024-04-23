@@ -34,7 +34,10 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+.game button:hover {
+    background-color: aquamarine;
+    /* Cor de fundo mais clara ao passar o mouse */
+}
 .game button {
 
     width: 100px;
